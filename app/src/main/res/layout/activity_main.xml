@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="662dp"
+        android:layout_height="1069dp"
+        app:srcCompat="@drawable/yellow_breasted_bunting"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="-102dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="418dp"
+        android:layout_height="475dp"
+        app:srcCompat="@drawable/logo_white"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="-103dp" />
+
+    <Button
+        android:id="@+id/birdlist"
+        android:layout_width="248dp"
+        android:layout_height="76dp"
+        android:text="Bird List"
+        android:textColor="#E4DFDF"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#DD490F"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <Button
+        android:id="@+id/checklist"
+        android:layout_width="242dp"
+        android:layout_height="72dp"
+        android:text="My Checklist"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D54D0F"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="763dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

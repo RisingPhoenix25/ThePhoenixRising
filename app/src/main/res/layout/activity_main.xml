@@ -12,17 +12,28 @@
         android:id="@+id/imageView3"
         android:layout_width="662dp"
         android:layout_height="1069dp"
+        android:contentDescription="Bg Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/yellow_breasted_bunting"
-        tools:layout_editor_absoluteX="-19dp"
-        tools:layout_editor_absoluteY="-102dp" />
+        tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="418dp"
         android:layout_height="475dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo_white"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="-103dp" />
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/birdlist"
@@ -34,8 +45,11 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#DD490F"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="669dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/checklist"
@@ -45,7 +59,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:backgroundTint="#D54D0F"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="763dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.07999998" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
